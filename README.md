@@ -1,15 +1,18 @@
-# github-learnings
+# GitHub-learnings
 
-Confguring Github Pre-Commit Hooks for a python Project
+Configuring Github Pre-Commit Hooks for a Python Project
 
 Created this(github-learnings) repository
 Installed Pylint Extension in Visual Studio Code
 
-In terrminal:
+In terminal:
 -------------------------------------
 pip install pre-commit
-export PATH = $PATH:<pre-commit installation path>
-pre-comit --version
+
+export PATH = $PATH:[pre-commit installation path]
+
+pre-commit --version
+
 ---------------------------------------
 
 
@@ -19,10 +22,13 @@ see .pre-commit-config.yaml code for more details
 
 Make sure you change the rev: <version>  are changed to the latest versions
 
-In terrminal:
+In terminal:
 -------------------------------------
+
 git init
+
 pre-commit install
+
 -------------------------------------
 
 
